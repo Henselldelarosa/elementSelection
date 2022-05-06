@@ -3,27 +3,36 @@ const select = () => {
 
     /* Section 1 */
     // 1. Get all seeded fruit elements
-    // Your code here
-    
+
+    let seed = document.getElementsByClassName("seed")
+    console.log(seed)
+
     // 2. Get all seedless fruit elements
-    // Your code here
 
+    let seedless = document.getElementsByClassName("seedless")
+    console.log(seedless)
     // 3. Get first seedless fruit element
-    // Your code here
 
+    let firstSeed = document.getElementsByClassName("seedless")[0]
+
+    console.log(firstSeed)
     /* Section 2 */
     // 4. Get inner span with text "you"
-    // Your code here
 
+    let innerSpan = document.getElementsByTagName("span")
+    console.log(innerSpan)
     // 5. Get all children of element "wrapper"
-    // Your code here
-
+    let wrapperChild = document.querySelector("#wrapper")
+    console.log(wrapperChild)
     // 6. Get all odd number list items in the list
     // Your code here
+    const odd = document.getElementsByClassName("odd")
+    console.log(odd)
 
     // 7. Get all even number list items in the list
     // Your code here
-
+    const even = document.querySelector("ol" !== ".odd")
+    console.log(even)
     /* Section 3 */
     // 8. Get all tech companies without a class name
     // Your code here
